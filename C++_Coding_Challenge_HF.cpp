@@ -188,15 +188,15 @@ int main()
 			return 0;
 
 		// Tester l'expression
-		Trait_Expr test;
-		double Result = test.Eval(Expr);
-		if(test.getErr() != no_Err)
+		Trait_Expr tExpression;
+		double dResult = tExpression.Eval(Expr);
+		if(tExpression.getErr() != no_Err)
 		{
-			printf("  Error: %s at %s\n", Errors[test.getErr()], test.getErrPos());
+			printf("  Erreur: %s at %s\n", Errors[tExpression.getErr()], tExpression.getErrPos());
 		}
 		else
 		{
-			cout<<"Le résultat de l'expression saisie est  "<<Result<<endl;
+			cout<<"Le résultat de l'expression saisie est  "<< dResult << endl;
 		}
 	}
 }
