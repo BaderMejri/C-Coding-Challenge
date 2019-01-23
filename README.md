@@ -11,8 +11,10 @@ You can try to run this code in any IDE by entering any expression in the consol
 
 Error handling, parentheses and unary minus parsing are also added to the program below. Only three error messages are used:
  
-"Erreur dans les parenthèses".
-"Charactère non-valide".
+"Erreur dans les parenthèses",
+
+"Charactère non-valide" and
+
 "Division par zéro". 
 
 When the interpreter sees an unexpected character anywhere, it returns the "Charactère non-valide" error code. 
